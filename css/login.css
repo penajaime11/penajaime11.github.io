@@ -1,10 +1,8 @@
-/* Estilos para la pantalla de Login / Registro */
 
-/* 1. Contenedor de la Página y Fondo */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    color: black; /* Color de texto predeterminado para el formulario */
+    color: black;
 }
 
 .page-container {
@@ -12,13 +10,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Degradado de fondo de la imagen */
+    
     background: linear-gradient(180deg, #444 0%, #000 100%);
     position: relative;
-    padding-top: 50px; /* Espacio para el logo */
+    padding-top: 50px; 
 }
 
-/* 2. Estilos del Logo (como en el diseño original) */
+
 .navbar {
     position: absolute;
     top: 20px;
@@ -28,7 +26,7 @@ body {
 .logo {
     display: flex;
     align-items: center;
-    background-color: #f0ff00; /* Amarillo/Lima brillante */
+    background-color: #f0ff00; 
     padding: 5px 12px;
     border-radius: 5px;
 }
@@ -40,7 +38,7 @@ body {
     color: #000;
 }
 
-/* 3. Contenedor del Formulario (Login Box) */
+
 .login-box {
     background-color: white;
     padding: 40px 60px;
@@ -49,14 +47,14 @@ body {
     width: 100%;
     max-width: 450px;
     text-align: center;
-    /* Borde redondeado sutil y grande */
+    
     border-radius: 20px;
 }
 
 .volleyball-icon {
     font-size: 3em;
     margin-bottom: 20px;
-    /* Simula el icono de voleibol en blanco y negro */
+    
     color: #000;
     background-color: white; 
     display: inline-block;
@@ -72,7 +70,7 @@ body {
     text-transform: uppercase;
 }
 
-/* 4. Elementos del Formulario */
+
 .login-form {
     display: flex;
     flex-direction: column;
@@ -102,7 +100,7 @@ body {
     color: #888;
 }
 
-/* 5. Botones */
+
 .btn {
     padding: 15px;
     border: none;
@@ -121,21 +119,21 @@ body {
     opacity: 0.9;
 }
 
-/* Botón de Email (Lima brillante) */
+
 .btn-email {
     background-color: #f0ff00; 
     color: #000;
     margin-top: 5px;
 }
 
-/* Botón de Facebook (Azul) */
+
 .btn-facebook {
     background-color: #1877f2;
     color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* Botón de Google (Blanco con borde y texto oscuro) */
+
 .btn-google {
     background-color: white;
     color: #333;
@@ -150,12 +148,12 @@ body {
 }
 
 .btn-google .icon-social {
-    /* Si usas la imagen, ajusta el tamaño */
+    
     width: 20px; 
     height: 20px;
 }
 
-/* 6. Separador "OR" */
+
 .separator {
     text-align: center;
     font-weight: bold;
@@ -164,7 +162,7 @@ body {
     font-size: 0.85em;
 }
 
-/* Media Query para pantallas pequeñas */
+
 @media (max-width: 550px) {
     .login-box {
         margin: 0 15px;
