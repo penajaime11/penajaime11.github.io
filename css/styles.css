@@ -100,7 +100,7 @@ body {
     left: 5%;
     transform: translateY(-50%);
     z-index: 5;
-    max-width: 650px;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -515,11 +515,12 @@ body {
 
     
     .headline-container { 
-        top: 30%; 
+        top: 20%; 
         left: 50%; 
         transform: translate(-50%, -50%); 
         align-items: center; 
-        max-width: 90%;
+        max-width: 95%;
+        min-width: 90%;
         text-align: center;
     }
     .headline-background-image {
@@ -529,13 +530,13 @@ body {
     }
     
     .headline { 
-        font-size: 2.2em; 
+        font-size: 2.2rem; 
         line-height: 1.2;
     }
     
     .bottom-content { 
         flex-direction: column; 
-        align-items: center; 
+        align-items: center;
         bottom: 15px; 
         left: 15px; 
         right: 15px; 
