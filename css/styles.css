@@ -327,7 +327,7 @@ body {
     position: relative; 
     overflow: hidden; 
     
-    background-image: url('/img/ranking.png');
+    background-image: url('/img/ranking.webp');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;

@@ -18,7 +18,7 @@ body {
     min-height: 750px; 
     
     
-    background-image: linear-gradient(to top, rgba(140, 15, 43, 0.5) 0%, rgba(140, 15, 43, 0.5) 30%, transparent 100%), url('/img/banner.png');
+    background-image: linear-gradient(to top, rgba(140, 15, 43, 0.5) 0%, rgba(140, 15, 43, 0.5) 30%, transparent 100%), url('/img/banner.webp');
     background-size: cover; 
     background-position: center bottom; 
     background-repeat: no-repeat;
